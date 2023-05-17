@@ -1,0 +1,2 @@
+require './tempviewer'
+run Tempviewer

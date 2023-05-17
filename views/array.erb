@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <% @headers.each do |header| %>
+      <th>
+        <%= header %>
+      </th>
+    <% end %>
+  </thead>
+  <% @data.each do |datum| %>
+    <tr>
+      <% datum.each do |cell| %>
+        <td><%= cell %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
